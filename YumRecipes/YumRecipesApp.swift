@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct YumRecipesApp: App {
+    
+    @StateObject public var favoriteVM = FavoriteViewModel()
+//    @StateObject public var addVM = AddRecipeViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(favoriteVM)
+//                .environmentObject(addVM)
         }
     }
 }

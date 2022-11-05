@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACBE615D290C270400A997B5 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE615C290C270400A997B5 /* RecipeListView.swift */; };
+		ACBE615F290EE3BC00A997B5 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE615E290EE3BC00A997B5 /* RecipeDetailView.swift */; };
+		ACBE616229100AB800A997B5 /* FavoriteRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE616129100AB800A997B5 /* FavoriteRecipeViewModel.swift */; };
+		ACBE6166291160DB00A997B5 /* FavoriteRecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE6165291160DB00A997B5 /* FavoriteRecipeListView.swift */; };
+		ACBE61682911B6A600A997B5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE61672911B6A600A997B5 /* EmptyView.swift */; };
+		ACBE616A2914572400A997B5 /* AddRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE61692914572400A997B5 /* AddRecipeViewModel.swift */; };
+		ACBE616C2914582700A997B5 /* RecipeFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE616B2914582700A997B5 /* RecipeFormView.swift */; };
 		ACE47C28290C0BCB00E3A64A /* YumRecipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C27290C0BCB00E3A64A /* YumRecipesApp.swift */; };
 		ACE47C2A290C0BCB00E3A64A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C29290C0BCB00E3A64A /* ContentView.swift */; };
 		ACE47C2C290C0BCD00E3A64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE47C2B290C0BCD00E3A64A /* Assets.xcassets */; };
 		ACE47C2F290C0BCD00E3A64A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE47C2E290C0BCD00E3A64A /* Preview Assets.xcassets */; };
+		ACE47C36290C0ED200E3A64A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C35290C0ED200E3A64A /* RecipeModel.swift */; };
+		ACE47C38290C1C5C00E3A64A /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE47C37290C1C5C00E3A64A /* RecipeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACBE615C290C270400A997B5 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		ACBE615E290EE3BC00A997B5 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		ACBE616129100AB800A997B5 /* FavoriteRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipeViewModel.swift; sourceTree = "<group>"; };
+		ACBE6165291160DB00A997B5 /* FavoriteRecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipeListView.swift; sourceTree = "<group>"; };
+		ACBE61672911B6A600A997B5 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		ACBE61692914572400A997B5 /* AddRecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewModel.swift; sourceTree = "<group>"; };
+		ACBE616B2914582700A997B5 /* RecipeFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFormView.swift; sourceTree = "<group>"; };
 		ACE47C24290C0BCB00E3A64A /* YumRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE47C27290C0BCB00E3A64A /* YumRecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumRecipesApp.swift; sourceTree = "<group>"; };
 		ACE47C29290C0BCB00E3A64A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACE47C2B290C0BCD00E3A64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE47C2E290C0BCD00E3A64A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACE47C35290C0ED200E3A64A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		ACE47C37290C1C5C00E3A64A /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACBE616029100A7700A997B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE616129100AB800A997B5 /* FavoriteRecipeViewModel.swift */,
+				ACBE61692914572400A997B5 /* AddRecipeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ACBE616329100AEB00A997B5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				ACE47C37290C1C5C00E3A64A /* RecipeData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		ACBE616429100B0900A997B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACE47C35290C0ED200E3A64A /* RecipeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ACE47C1B290C0BCB00E3A64A = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				ACE47C27290C0BCB00E3A64A /* YumRecipesApp.swift */,
-				ACE47C29290C0BCB00E3A64A /* ContentView.swift */,
+				ACBE616329100AEB00A997B5 /* Data */,
+				ACBE616429100B0900A997B5 /* Model */,
+				ACBE616029100A7700A997B5 /* ViewModel */,
+				ACE47C39290C260700E3A64A /* View */,
 				ACE47C2B290C0BCD00E3A64A /* Assets.xcassets */,
 				ACE47C2D290C0BCD00E3A64A /* Preview Content */,
 			);
@@ -65,6 +111,19 @@
 				ACE47C2E290C0BCD00E3A64A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACE47C39290C260700E3A64A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACE47C29290C0BCB00E3A64A /* ContentView.swift */,
+				ACBE615C290C270400A997B5 /* RecipeListView.swift */,
+				ACBE615E290EE3BC00A997B5 /* RecipeDetailView.swift */,
+				ACBE6165291160DB00A997B5 /* FavoriteRecipeListView.swift */,
+				ACBE616B2914582700A997B5 /* RecipeFormView.swift */,
+				ACBE61672911B6A600A997B5 /* EmptyView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE47C2A290C0BCB00E3A64A /* ContentView.swift in Sources */,
+				ACBE61682911B6A600A997B5 /* EmptyView.swift in Sources */,
+				ACBE615F290EE3BC00A997B5 /* RecipeDetailView.swift in Sources */,
+				ACE47C38290C1C5C00E3A64A /* RecipeData.swift in Sources */,
+				ACBE616A2914572400A997B5 /* AddRecipeViewModel.swift in Sources */,
+				ACBE616C2914582700A997B5 /* RecipeFormView.swift in Sources */,
+				ACBE615D290C270400A997B5 /* RecipeListView.swift in Sources */,
 				ACE47C28290C0BCB00E3A64A /* YumRecipesApp.swift in Sources */,
+				ACBE616229100AB800A997B5 /* FavoriteRecipeViewModel.swift in Sources */,
+				ACBE6166291160DB00A997B5 /* FavoriteRecipeListView.swift in Sources */,
+				ACE47C36290C0ED200E3A64A /* RecipeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
