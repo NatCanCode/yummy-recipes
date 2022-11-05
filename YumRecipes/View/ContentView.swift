@@ -9,24 +9,27 @@ import SwiftUI
 // Ideal for TabView
 struct ContentView: View {
     var body: some View {
-        TabView {
-            RecipeListView()
-                .tabItem {
-                    Label("Recipes", systemImage: "fork.knife")
-                }
-//            RecipeFormView()
-//                .tabItem {
-//                    Label("My recipes", systemImage: "book.closed")
-//                }
-            FavoriteRecipeListView()
-                .tabItem {
-                    Label("Favorites", systemImage: "heart")
-                }
-//                .tabItem {
-//                    Label("Recipes", systemImage: "book")
-//                }
+        ZStack {
+            Color("paleGreen")
+            TabView {
+                RecipeListView()
+                    .tabItem {
+                        Label("Recipes", systemImage: "fork.knife")
+                    }
+    //            RecipeFormView()
+    //                .tabItem {
+    //                    Label("My recipes", systemImage: "book.closed")
+    //                }
+                FavoriteRecipeListView()
+                    .tabItem {
+                        Label("Favorites", systemImage: "heart")
+                    }
+    //                .tabItem {
+    //                    Label("Recipes", systemImage: "book")
+    //                }
+            }
         }
-//        .foregroundColor(.purple)
+        .ignoresSafeArea()
     }
 }
 

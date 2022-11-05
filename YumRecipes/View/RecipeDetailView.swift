@@ -127,7 +127,15 @@ struct RecipeDetailView: View {
                     }
                     VStack(alignment: .leading) {
                         ForEach(recipe.ingredients, id: \.self) { ingredient in
-                            Text(ingredient)
+                            HStack(alignment: .center, spacing: 5) {
+                                Image(ingredient.ingredientImage)
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(maxWidth: 50)
+                                    .clipShape(Circle())
+                                Text(ingredient.ingredientName)
+//                                    .padding(.bottom)
+                            }
                         }
                     }
                 }
@@ -145,7 +153,6 @@ struct RecipeDetailView: View {
                             VStack(alignment: .leading, spacing: 6) {
                                 Text(step.title)
                                     .font(.title3.bold())
-                                    
                                 Text(step.description)
                                     .padding(.bottom)
                             }
@@ -156,6 +163,8 @@ struct RecipeDetailView: View {
             }
         }
         .listStyle(.plain)
+        .background(Color("paleGreen"))
+        .scrollContentBackground(.hidden)
         
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -175,7 +184,7 @@ struct RecipeDetailView: View {
             }
         }
         .navigationBarTitleDisplayMode(.inline)
-        //        .ignoresSafeArea()
+//        .ignoresSafeArea()
     }
 }
 

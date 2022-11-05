@@ -26,16 +26,9 @@ struct RecipeModel: Identifiable, Equatable {
     let prepTime: Int
     let cookingTime: Int
     let restTime: Int
-    let ingredients: [String]
+    let ingredients: [Ingredient]
     let description: String
     let step: [Step]
-}
-
-struct Step: Hashable {
-    let title: String
-    let description: String
-    
-    static let example: [Step] = [Step(title: "Step 1", description: "Describes the whole process.")]
 }
 
 enum RecipeCategory: String, CaseIterable {
@@ -73,4 +66,18 @@ enum RecipeSeason: String {
     case autumn = "Autumn"
     case winter = "Winter"
     case allSeasons = "All seasons"
+}
+
+struct Ingredient: Hashable {
+    let ingredientImage: String
+    let ingredientName: String
+    
+    static let IngredientExample: [Ingredient] = [Ingredient(ingredientImage: "chocolate", ingredientName: "Plain chocolate")]
+}
+
+struct Step: Hashable {
+    let title: String
+    let description: String
+    
+    static let stepExample: [Step] = [Step(title: "Step 1", description: "Describes the whole process.")]
 }

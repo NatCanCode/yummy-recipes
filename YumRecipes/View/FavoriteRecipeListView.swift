@@ -26,8 +26,11 @@ struct FavoriteRecipeListView: View {
                     .onDelete(perform: favoritesVM.removefavorite)
                     .onMove(perform: favoritesVM.moveRecipe)
                 }
+                .background(Color("paleGreen"))
+                .scrollContentBackground(.hidden)
                 .navigationTitle("Favorites")
             }
+//            .ignoresSafeArea()
         }
     }
 }

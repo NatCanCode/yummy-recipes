@@ -22,7 +22,10 @@ struct RecipeListView: View {
                 }
                 .navigationBarTitle("Recipes")
             }
+            .background(Color("paleGreen"))
+            .scrollContentBackground(.hidden)
         }
+//        .ignoresSafeArea()
     }
 }
 
@@ -52,7 +55,7 @@ struct ListRowCellView: View {
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             }
-
+            
             VStack(alignment: .leading, spacing: 10) {
                 Text(recipeName)
                     .font(.title3.bold())
