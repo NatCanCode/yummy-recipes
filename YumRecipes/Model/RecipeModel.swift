@@ -21,6 +21,7 @@ struct RecipeModel: Identifiable, Equatable {
     let category: RecipeCategory
     let cost: RecipeCost
     let level: RecipeLevel
+    let diet: RecipeDiet
     let season: RecipeSeason
     let prepTime: Int
     let cookingTime: Int
@@ -53,6 +54,17 @@ enum RecipeLevel: String {
     case easy = "Easy"
     case intermediate = "Intermediate"
     case difficult = "Difficult"
+    case chef = "Like a Chef!"
+}
+
+enum RecipeDiet: String {
+    case vegan = "Vegan"
+    case vegetarian = "Vegetarian"
+    case dairyFree = "Dairy free"
+    case glutenFree = "Gluten free"
+    case porkLess = "Porkless"
+    case fishLess = "Fishless"
+    case allDiets = "All diets"
 }
 
 enum RecipeSeason: String {
@@ -60,4 +72,5 @@ enum RecipeSeason: String {
     case summer = "Summer"
     case autumn = "Autumn"
     case winter = "Winter"
+    case allSeasons = "All seasons"
 }

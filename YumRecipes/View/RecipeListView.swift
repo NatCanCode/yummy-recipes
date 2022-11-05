@@ -55,9 +55,9 @@ struct ListRowCellView: View {
 
             VStack(alignment: .leading, spacing: 10) {
                 Text(recipeName)
-                    .font(.headline)
+                    .font(.title3.bold())
                 Text(recipeDescription)
-                    .lineLimit(3)
+                    .lineLimit(2)
                     .foregroundColor(.secondary)
             }
         }

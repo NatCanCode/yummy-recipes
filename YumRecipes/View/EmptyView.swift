@@ -10,7 +10,7 @@ import SwiftUI
 struct EmptyView: View {
     var body: some View {
         VStack {
-            Image(systemName: "xmark.seal")
+            Image(systemName: "heart")
                 .font(.largeTitle)
             Text("No favorite recipe yet!")
                 .font(.title2)

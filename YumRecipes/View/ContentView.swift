@@ -12,7 +12,7 @@ struct ContentView: View {
         TabView {
             RecipeListView()
                 .tabItem {
-                    Label("Recipes", systemImage: "book")
+                    Label("Recipes", systemImage: "fork.knife")
                 }
 //            RecipeFormView()
 //                .tabItem {

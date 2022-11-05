@@ -11,8 +11,8 @@ struct RecipeDetailView: View {
     //    Must give the detail view a sample recipe > RecipeModel extension created in RecipeData file
     let recipe: RecipeModel
     @EnvironmentObject public var favoriteVM: FavoriteViewModel
-    @State private var value = 1
-    @State var circleSize: Float = 20.0
+    @State private var value = 2
+//    @State var circleSize: Float = 20.0
     let step = 1
     let range = 1...9
     
@@ -63,33 +63,43 @@ struct RecipeDetailView: View {
                 }
                 HStack(alignment: .center) {
                     IconsExtractedView(systemName: "star", indicator: recipe.level.rawValue)
+                    IconsExtractedView(systemName: "bookmark", indicator: recipe.diet.rawValue)
                     IconsExtractedView(systemName: "leaf", indicator: recipe.season.rawValue)
                     IconsExtractedView(systemName: "eurosign", indicator: recipe.cost.rawValue)
                 }
             }
-            .padding(7)
+            .padding(2)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
-            .background(.purple)
+//            .background(.purple)
+            .font(.subheadline)
             .fontWeight(.bold)
+            .multilineTextAlignment(.center)
+//            Use foregroundStyle instead of beackground for linear color text
+            .background(
+                    LinearGradient(
+                        colors: [Color("darkGreen"), Color("mediumGreen"), Color("lightGreen")],
+                        startPoint: .leading,
+                        endPoint: .trailing
+                    )
+            )
             
-            VStack {
-                HStack {
-                    Spacer()
-                    Stepper("Nombre de personnes", value: $value, in: range, step: step)
-                        .frame(width: 100, height: 50)
-                    Spacer()
-                }
-                Text("Pour \(value) personnes")
-//                Circle()
-//                    .frame(width: CGFloat(circleSize), height: CGFloat(circleSize))
-//                    .foregroundColor(.purple)
-//                    .animation(.easeIn)
-                Spacer()
-            }
-            .padding(.top)
-            .foregroundColor(.purple)
-            .fontWeight(.bold)
+//            VStack {
+//                HStack {
+//                    Spacer()
+//                    Stepper("Nombre de personnes", value: $value, in: range, step: step)
+//                        .frame(width: 100, height: 50)
+//                    Spacer()
+//                }
+//                HStack {
+//                    Text("For \(value)")
+//                    Image(systemName: "fork.knife")
+//                }
+//                Spacer()
+//            }
+//            .padding(.top)
+//            .foregroundColor(.purple)
+//            .fontWeight(.bold)
             
             
             //            if !recipe.description.isEmpty {
@@ -106,6 +116,14 @@ struct RecipeDetailView: View {
                     HStack {
                         Text("Ingredients")
                             .font(.title2.bold())
+                        Text("for \(value)")
+                            .font(.title2.bold())
+                        Image(systemName: "fork.knife")
+                            .fontWeight(.bold)
+                        Spacer()
+                        Stepper("Number of people", value: $value, in: range, step: step)
+                            .frame(width: 50, height: 50)
+                        Spacer()
                     }
                     VStack(alignment: .leading) {
                         ForEach(recipe.ingredients, id: \.self) { ingredient in
@@ -146,7 +164,14 @@ struct RecipeDetailView: View {
                 }, label: {
                     Label("Add to favorites", systemImage: "heart")
                 })
-                .foregroundColor(.purple)
+//                .foregroundColor(.purple)
+                .foregroundStyle(
+                        LinearGradient(
+                            colors: [Color("darkGreen"), Color("mediumGreen"), Color("lightGreen")],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
+                )
             }
         }
         .navigationBarTitleDisplayMode(.inline)
