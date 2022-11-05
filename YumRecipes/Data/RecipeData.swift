@@ -22,19 +22,19 @@ var recipes: [RecipeModel] = [
         cookingTime: 15,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "1 medium garlic clove, minced or grated"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "¼ cup grated Parmesan cheese"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "½ lemon juice"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "¼ cup mayonnaise"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "½ cup Greek yogurt"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "1 tbsp olive oil"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "½ tbsp Dijon mustard"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "1 tsp anchovy paste or Worcestershire sauce (or omit)"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "¼ tsp salt"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "¼ tsp ground black pepper"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "3 romaine hearts or 1 large head romaine"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "½ cup Parmesan cheese shavings"),
-            Ingredient(ingredientImage: "pumpkin-soup", ingredientName: "Homemade croutons (optional)")
+            Ingredient(ingredientImage: "ail", ingredientName: "1 medium garlic clove, minced or grated"),
+            Ingredient(ingredientImage: "parmesan-powder", ingredientName: "¼ cup grated Parmesan cheese"),
+            Ingredient(ingredientImage: "citron", ingredientName: "½ lemon juice"),
+            Ingredient(ingredientImage: "mayonnaise", ingredientName: "¼ cup mayonnaise"),
+            Ingredient(ingredientImage: "yaourt", ingredientName: "½ cup Greek yogurt"),
+            Ingredient(ingredientImage: "huile-olive", ingredientName: "1 tbsp olive oil"),
+            Ingredient(ingredientImage: "mustard", ingredientName: "½ tbsp Dijon mustard"),
+            Ingredient(ingredientImage: "anchovy-paste", ingredientName: "1 tsp anchovy paste or Worcestershire sauce (or omit)"),
+            Ingredient(ingredientImage: "sel", ingredientName: "¼ tsp salt"),
+            Ingredient(ingredientImage: "poivre", ingredientName: "¼ tsp ground black pepper"),
+            Ingredient(ingredientImage: "salade", ingredientName: "3 romaine hearts or 1 large head romaine"),
+            Ingredient(ingredientImage: "parmesan-block", ingredientName: "½ cup Parmesan cheese shavings"),
+            Ingredient(ingredientImage: "croutons", ingredientName: "Homemade croutons (optional)")
         ],
         description: "The very best Caesar salad recipe! This stunner has the perfect balance of creamy homemade dressing, crunchy croutons, and crisp lettuce.",
         step: [
@@ -56,13 +56,13 @@ var recipes: [RecipeModel] = [
         cookingTime: 0,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "½ cup Walnuts"),
-            Ingredient(ingredientImage: "", ingredientName: "Balsamic ddressing"),
-            Ingredient(ingredientImage: "", ingredientName: "Olive oil"),
-            Ingredient(ingredientImage: "", ingredientName: "1 apple"),
-            Ingredient(ingredientImage: "", ingredientName: "1 ripe pear"),
-            Ingredient(ingredientImage: "", ingredientName: "3 cups baby spinach leaves"),
-            Ingredient(ingredientImage: "", ingredientName: "3 cups baby mixed greens")
+            Ingredient(ingredientImage: "walnuts", ingredientName: "½ cup Walnuts"),
+            Ingredient(ingredientImage: "vinaigre-balsamique", ingredientName: "Balsamic dressing"),
+            Ingredient(ingredientImage: "huile-olive", ingredientName: "Olive oil"),
+            Ingredient(ingredientImage: "apple", ingredientName: "1 apple"),
+            Ingredient(ingredientImage: "pear", ingredientName: "1 ripe pear"),
+            Ingredient(ingredientImage: "epinards", ingredientName: "3 cups baby spinach leaves"),
+            Ingredient(ingredientImage: "mesclun", ingredientName: "3 cups baby mixed greens")
         ],
         description: "This spinach apple salad is so delicious and easy to prepare, it will be your new go-to!",
         step: [
@@ -94,12 +94,12 @@ var recipes: [RecipeModel] = [
         cookingTime: 0,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "100g lettuce or baby spinach leaves, or a mixture of both"),
-            Ingredient(ingredientImage: "", ingredientName: "100g fresh or semi-dried tomatoes in oil from a jar (reserve 1 tbsp oil for drizzling)"),
-            Ingredient(ingredientImage: "", ingredientName: "125g ball light buffalo mozzarella, cut into slices"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tsp pumpkin seeds"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tsp balsamic vinegar"),
-            Ingredient(ingredientImage: "", ingredientName: "1 tbsp olive oil")
+            Ingredient(ingredientImage: "laitue", ingredientName: "100g lettuce or baby spinach leaves, or a mixture of both"),
+            Ingredient(ingredientImage: "tomates", ingredientName: "100g fresh or semi-dried tomatoes in oil from a jar (reserve 1 tbsp oil for drizzling)"),
+            Ingredient(ingredientImage: "mozzarella", ingredientName: "125g ball light buffalo mozzarella, cut into slices"),
+            Ingredient(ingredientImage: "pumpkin-seeds", ingredientName: "2 tsp pumpkin seeds"),
+            Ingredient(ingredientImage: "vinaigre-balsamique", ingredientName: "2 tsp balsamic vinegar"),
+            Ingredient(ingredientImage: "huile-olive", ingredientName: "1 tbsp olive oil")
         ],
         description: "A basic vegetarian go-to salad with fresh or semi-dried tomatoes, cheese and seeds. Easy; super quick, and delicious!",
         step: [
@@ -121,13 +121,13 @@ var recipes: [RecipeModel] = [
         cookingTime: 10,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "1.2kg pumpkin or butternut squash (unpeeled weight)"),
-            Ingredient(ingredientImage: "", ingredientName: "1 onion, sliced (white, brown, yellow)"),
-            Ingredient(ingredientImage: "", ingredientName: "2 garlic cloves"),
-            Ingredient(ingredientImage: "", ingredientName: "3 cups/750ml vegetable or chicken broth/stock, low sodium"),
-            Ingredient(ingredientImage: "", ingredientName: "1 cup/250ml water"),
-            Ingredient(ingredientImage: "", ingredientName: "Salt and pepper"),
-            Ingredient(ingredientImage: "", ingredientName: "½ or more cup/125 to 185ml coconut milk or cream")
+            Ingredient(ingredientImage: "potimarron", ingredientName: "1.2kg pumpkin or butternut squash (unpeeled weight)"),
+            Ingredient(ingredientImage: "oignon", ingredientName: "1 onion, sliced (white, brown, yellow)"),
+            Ingredient(ingredientImage: "ail", ingredientName: "2 garlic cloves"),
+            Ingredient(ingredientImage: "bouillon-legumes", ingredientName: "3 cups/750ml vegetable or chicken broth/stock, low sodium"),
+            Ingredient(ingredientImage: "eau", ingredientName: "1 cup/250ml water"),
+            Ingredient(ingredientImage: "poivre", ingredientName: "Salt and pepper"),
+            Ingredient(ingredientImage: "coconut-milk", ingredientName: "½ or more cup/125 to 185ml coconut milk or cream")
         ],
         description: "This is THE pumpkin soup recipe you will make now and forever!",
         step: [
@@ -153,16 +153,16 @@ var recipes: [RecipeModel] = [
         cookingTime: 25,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "1 homemade store-bought pizza dough"),
-            Ingredient(ingredientImage: "", ingredientName: "½ cup pizza sauce or marinara"),
-            Ingredient(ingredientImage: "", ingredientName: "1 cup baby spinach"),
-            Ingredient(ingredientImage: "", ingredientName: "1 to 3 cups (115 to 230g) shredded low-moisture part-skim mozzarella cheese"),
-            Ingredient(ingredientImage: "", ingredientName: "¼ cup jarred or canned artichoke, cut"),
-            Ingredient(ingredientImage: "", ingredientName: "¼ cup fresh red or orange bell pepper, cut into narrow strips"),
-            Ingredient(ingredientImage: "", ingredientName: "¼ cup red onion, cut into thin wedges"),
-            Ingredient(ingredientImage: "", ingredientName: "¼ cup halved cherry tomatoes"),
-            Ingredient(ingredientImage: "", ingredientName: "¼ cup olives, halved lengthwise"),
-            Ingredient(ingredientImage: "", ingredientName: "Optional garnishes: Fresh basil, red pepper flakes and finely grated Parmesan cheese")
+            Ingredient(ingredientImage: "dough", ingredientName: "1 homemade store-bought pizza dough"),
+            Ingredient(ingredientImage: "sauce-tomate", ingredientName: "½ cup pizza sauce or marinara"),
+            Ingredient(ingredientImage: "epinards", ingredientName: "1 cup baby spinach"),
+            Ingredient(ingredientImage: "mozzarella", ingredientName: "1 to 3 cups (115 to 230g) shredded low-moisture part-skim mozzarella cheese"),
+            Ingredient(ingredientImage: "artichaut-bocal", ingredientName: "¼ cup jarred or canned artichoke, cut"),
+            Ingredient(ingredientImage: "poivrons", ingredientName: "¼ cup fresh red or orange bell pepper, cut into narrow strips"),
+            Ingredient(ingredientImage: "oignon-rouge", ingredientName: "¼ cup red onion, cut into thin wedges"),
+            Ingredient(ingredientImage: "tomate-cerise", ingredientName: "¼ cup halved cherry tomatoes"),
+            Ingredient(ingredientImage: "olives", ingredientName: "¼ cup olives, halved lengthwise"),
+            Ingredient(ingredientImage: "basilic", ingredientName: "Optional garnishes: Fresh basil, red pepper flakes and finely grated Parmesan cheese")
         ],
         description: "This ultimate vegetarian pizza recipe will delight vegetarians and carnivores alike.",
         step: [
@@ -188,18 +188,18 @@ var recipes: [RecipeModel] = [
         cookingTime: 75,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "2 red onions"),
-            Ingredient(ingredientImage: "", ingredientName: "4 cloves of garlic"),
-            Ingredient(ingredientImage: "", ingredientName: "2 aubergines"),
-            Ingredient(ingredientImage: "", ingredientName: "3 courgettes"),
-            Ingredient(ingredientImage: "", ingredientName: "3 red or yellow peppers"),
-            Ingredient(ingredientImage: "", ingredientName: "6 ripe tomatoes"),
-            Ingredient(ingredientImage: "", ingredientName: "½ a bunch of fresh basil (15g)"),
-            Ingredient(ingredientImage: "", ingredientName: "Olive oil"),
-            Ingredient(ingredientImage: "", ingredientName: "a few sprigs of fresh thyme"),
-            Ingredient(ingredientImage: "", ingredientName: "1 x 400 g tin of quality plum tomatoes"),
-            Ingredient(ingredientImage: "", ingredientName: "1 tbsp balsamic vinegar"),
-            Ingredient(ingredientImage: "", ingredientName: "½ lemon")
+            Ingredient(ingredientImage: "oignon-rouge", ingredientName: "2 red onions"),
+            Ingredient(ingredientImage: "ail", ingredientName: "4 cloves of garlic"),
+            Ingredient(ingredientImage: "aubergines", ingredientName: "2 aubergines"),
+            Ingredient(ingredientImage: "courgette", ingredientName: "3 courgettes"),
+            Ingredient(ingredientImage: "poivrons", ingredientName: "3 red or yellow peppers"),
+            Ingredient(ingredientImage: "tomates", ingredientName: "6 ripe tomatoes"),
+            Ingredient(ingredientImage: "basilic", ingredientName: "½ a bunch of fresh basil (15g)"),
+            Ingredient(ingredientImage: "huile-olive", ingredientName: "Olive oil"),
+            Ingredient(ingredientImage: "thym", ingredientName: "a few sprigs of fresh thyme"),
+            Ingredient(ingredientImage: "tomates-pelees", ingredientName: "1 x 400 g tin of quality plum tomatoes"),
+            Ingredient(ingredientImage: "vinaigre-balsamique", ingredientName: "1 tbsp balsamic vinegar"),
+            Ingredient(ingredientImage: "citron", ingredientName: "½ lemon")
         ],
         description: "This moreish Mediterranean-style vegetable stew is perfect for a super-healthy midweek supper.",
         step: [
@@ -225,14 +225,13 @@ var recipes: [RecipeModel] = [
         cookingTime: 30,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "125g coconut oil plus extra for the tin"),
-            Ingredient(ingredientImage: "", ingredientName: "2 large ripe bananas"),
-            Ingredient(ingredientImage: "", ingredientName: "3 medium eggs"),
-            Ingredient(ingredientImage: "", ingredientName: "125g golden caster sugar"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tbsp coconut yogurt"),
-            Ingredient(ingredientImage: "", ingredientName: "200g plain flour"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tsp baking powder"),
-            Ingredient(ingredientImage: "", ingredientName: "seeds from 12 cardamom pods, crushed")
+            Ingredient(ingredientImage: "banane", ingredientName: "2 large ripe bananas"),
+            Ingredient(ingredientImage: "oeuf", ingredientName: "3 medium eggs"),
+            Ingredient(ingredientImage: "caster-sugar", ingredientName: "125g golden caster sugar"),
+            Ingredient(ingredientImage: "yaourt", ingredientName: "2 tbsp coconut yogurt"),
+            Ingredient(ingredientImage: "farine", ingredientName: "200g plain flour"),
+            Ingredient(ingredientImage: "levure", ingredientName: "2 tsp baking powder"),
+            Ingredient(ingredientImage: "cardamom", ingredientName: "seeds from 12 cardamom pods, crushed")
         ],
         description: "Banana bread is a moist and sweet quick bread made from mashed bananas.",
         step: [
@@ -258,15 +257,15 @@ var recipes: [RecipeModel] = [
         cookingTime: 12,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "100g chocolate"),
-            Ingredient(ingredientImage: "", ingredientName: "75g coconut sugar"),
-            Ingredient(ingredientImage: "", ingredientName: "75g coconut oil"),
-            Ingredient(ingredientImage: "", ingredientName: "90g ground oats/oat flour"),
-            Ingredient(ingredientImage: "", ingredientName: "70g buckwheat flour"),
-            Ingredient(ingredientImage: "", ingredientName: "60g brown rice flour"),
-            Ingredient(ingredientImage: "", ingredientName: "½ teaspoon of baking powder"),
-            Ingredient(ingredientImage: "", ingredientName: "40ml water"),
-            Ingredient(ingredientImage: "", ingredientName: "pinch of salt")
+            Ingredient(ingredientImage: "chocolate", ingredientName: "100g chocolate"),
+            Ingredient(ingredientImage: "caster-sugar", ingredientName: "75g coconut sugar"),
+            Ingredient(ingredientImage: "coconut-oil", ingredientName: "75g coconut oil"),
+            Ingredient(ingredientImage: "oats", ingredientName: "90g ground oats/oat flour"),
+            Ingredient(ingredientImage: "farine", ingredientName: "70g buckwheat flour"),
+            Ingredient(ingredientImage: "farine", ingredientName: "60g brown rice flour"),
+            Ingredient(ingredientImage: "levure", ingredientName: "½ teaspoon of baking powder"),
+            Ingredient(ingredientImage: "eau", ingredientName: "40ml water"),
+            Ingredient(ingredientImage: "sel", ingredientName: "pinch of salt")
         ],
         description: "A chocolate chip cookie is a yummy drop cookie with chocolate chips or chocolate morsels.",
         step: [
@@ -291,13 +290,13 @@ var recipes: [RecipeModel] = [
         cookingTime: 240,
         restTime: 120,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "150g digestive biscuits (about 10)"),
-            Ingredient(ingredientImage: "", ingredientName: "75g butter or coconut oil"),
-            Ingredient(ingredientImage: "", ingredientName: "1 x 397g tin of sweetened condensed milk"),
-            Ingredient(ingredientImage: "", ingredientName: "3 small just-ripe bananas"),
-            Ingredient(ingredientImage: "", ingredientName: "1 lemon juice"),
-            Ingredient(ingredientImage: "", ingredientName: "50g dark chocolate, broken into pieces, or 1 tbsp cocoa powder (or omit)"),
-            Ingredient(ingredientImage: "", ingredientName: "300ml double cream (or omit)")
+            Ingredient(ingredientImage: "digestive-biscuits", ingredientName: "150g digestive biscuits (about 10)"),
+            Ingredient(ingredientImage: "beurre", ingredientName: "75g butter or coconut oil"),
+            Ingredient(ingredientImage: "lait-concentre", ingredientName: "1 x 397g tin of sweetened condensed milk"),
+            Ingredient(ingredientImage: "banane", ingredientName: "3 small just-ripe bananas"),
+            Ingredient(ingredientImage: "citron", ingredientName: "1 lemon juice"),
+            Ingredient(ingredientImage: "chocolate", ingredientName: "50g dark chocolate, broken into pieces, or 1 tbsp cocoa powder (or omit)"),
+            Ingredient(ingredientImage: "yaourt", ingredientName: "300ml double cream (or omit)")
         ],
         description: "Banoffee pie is a British dessert pie made from bananas, cream and a thick caramel sauce, combined on a buttery crumbled biscuit base. Its name is a portmanteau constructed from the words \"banana\" and \"toffee\".",
         step: [
@@ -326,14 +325,14 @@ extension RecipeModel {
         cookingTime: 30,
         restTime: 0,
         ingredients: [
-            Ingredient(ingredientImage: "", ingredientName: "125g coconut oil plus extra for the tin"),
-            Ingredient(ingredientImage: "", ingredientName: "2 large ripe bananas"),
-            Ingredient(ingredientImage: "", ingredientName: "3 medium eggs"),
-            Ingredient(ingredientImage: "", ingredientName: "125g golden caster sugar"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tbsp coconut yogurt"),
-            Ingredient(ingredientImage: "", ingredientName: "200g plain flour"),
-            Ingredient(ingredientImage: "", ingredientName: "2 tsp baking powder"),
-            Ingredient(ingredientImage: "", ingredientName: "seeds from 12 cardamom pods, crushed")
+            Ingredient(ingredientImage: "coconut-oil", ingredientName: "125g coconut oil plus extra for the tin"),
+            Ingredient(ingredientImage: "banane", ingredientName: "2 large ripe bananas"),
+            Ingredient(ingredientImage: "oeuf", ingredientName: "3 medium eggs"),
+            Ingredient(ingredientImage: "caster-sugar", ingredientName: "125g golden caster sugar"),
+            Ingredient(ingredientImage: "yaourt", ingredientName: "2 tbsp coconut yogurt"),
+            Ingredient(ingredientImage: "farine", ingredientName: "200g plain flour"),
+            Ingredient(ingredientImage: "levure", ingredientName: "2 tsp baking powder"),
+            Ingredient(ingredientImage: "cardamom", ingredientName: "seeds from 12 cardamom pods, crushed")
         ],
         description: "Banana bread is a moist and sweet quick bread made from mashed bananas.",
         step: [

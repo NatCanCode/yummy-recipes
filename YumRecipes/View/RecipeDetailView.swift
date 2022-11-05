@@ -123,7 +123,8 @@ struct RecipeDetailView: View {
                         Spacer()
                         Stepper("Number of people", value: $value, in: range, step: step)
                             .frame(width: 50, height: 50)
-                        Spacer()
+                            .padding(8)
+//                        Spacer()
                     }
                     VStack(alignment: .leading) {
                         ForEach(recipe.ingredients, id: \.self) { ingredient in
