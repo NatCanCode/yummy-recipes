@@ -16,17 +16,14 @@ struct ContentView: View {
                     .tabItem {
                         Label("Recipes", systemImage: "fork.knife")
                     }
-    //            RecipeFormView()
-    //                .tabItem {
-    //                    Label("My recipes", systemImage: "book.closed")
-    //                }
+                AddedRecipeListView()
+                    .tabItem {
+                        Label("My recipes", systemImage: "plus")
+                    }
                 FavoriteRecipeListView()
                     .tabItem {
                         Label("Favorites", systemImage: "heart")
                     }
-    //                .tabItem {
-    //                    Label("Recipes", systemImage: "book")
-    //                }
             }
         }
         .ignoresSafeArea()

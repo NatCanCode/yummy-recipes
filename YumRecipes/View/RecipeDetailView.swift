@@ -22,10 +22,19 @@ struct RecipeDetailView: View {
                 if let recipe = recipe.image {
                     Image(recipe)
                         .resizable()
-                        .scaledToFit()
-                    //                    .frame(maxWidth: 350)
+//                        .scaledToFit()
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
                         .clipShape(RoundedRectangle(cornerRadius: 10))
-                } else {
+                } else if let image = recipe.formImage {
+                    image
+                        .resizable()
+//                        .scaledToFit()
+                        .scaledToFill()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                else {
                     ZStack {
                         RoundedRectangle(cornerRadius: 10)
                             .foregroundColor(.secondary)
@@ -172,15 +181,16 @@ struct RecipeDetailView: View {
                 Button(action: {
                     favoriteVM.deleteOrRemoveFavorite(recipe: recipe)
                 }, label: {
-                    Label("Add to favorites", systemImage: "heart")
+                    Label("Add to favorites", systemImage: favoriteVM.favorites.contains(recipe) ? "heart.fill" : "heart")
+                            .font(.title3)
                 })
 //                .foregroundColor(.purple)
                 .foregroundStyle(
-                        LinearGradient(
-                            colors: [Color("darkGreen"), Color("mediumGreen"), Color("lightGreen")],
+                    LinearGradient(
+                        colors: [Color("darkGreen"), Color("mediumGreen"), Color("lightGreen")],
                             startPoint: .leading,
                             endPoint: .trailing
-                        )
+                    )
                 )
             }
         }

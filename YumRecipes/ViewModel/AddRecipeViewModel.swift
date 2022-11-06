@@ -8,14 +8,22 @@
 import Foundation
 import SwiftUI
 
-//class AddRecipeViewModel: ObservableObject {
-//    @Published  public var recipes = [RecipeModel]()
-//    @Published  public var selectedImage = Image?
-//    
-//    func addRecipe(image: String?, formImage: Image?, name: String, category: RecipeCategory, cost: RecipeCost, level: RecipeLevel, season: RecipeSeason, prepTime: Int, cookingTime: Int, restTime: Int, ingredients: [String], description: String) {
-//        
-//        self.recipes.append(RecipeModel(image: image, formImage: formImage, name: name, category: RecipeCategory, cost: RecipeCost, level: RecipeLevel, season: RecipeSeason, prepTime: Int, cookingTime: Int, restTime: Int, ingredients: [String], description: String))
-//    }
-//    
-//    
-//}
+class AddRecipeViewModel: ObservableObject {
+    @Published  public var recipes = [RecipeModel]()
+    @Published  public var selectedImage = Image?
+    
+    func addRecipe(image: String?, formImage: Image?, name: String, category: RecipeCategory, cost: RecipeCost, level: RecipeLevel, diet: RecipeDiet, season: RecipeSeason, prepTime: String, cookingTime: String, restTime: String, ingredients: [Ingredient], description: String, step: [Step]) {
+        
+        self.recipes.append(RecipeModel(image: image, formImage: formImage, name: name, category: category, cost: cost, level: level, diet: diet, season: season, prepTime: prepTime, cookingTime: cookingTime, restTime: restTime, ingredients: ingredients, description: description, step: step))
+        
+        selectedImage = .none
+    }
+    
+    func deleteAddedRecipe(at offset: IndexSet) {
+        self.recipes.remove(atOffsets: offset)
+    }
+    
+    func moveAddedRecipe(from offset: IndexSet, to destination: Int) {
+        self.recipes.move(fromOffsets: offset, toOffset: destination)
+    }
+}

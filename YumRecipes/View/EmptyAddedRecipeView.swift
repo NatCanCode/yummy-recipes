@@ -1,21 +1,18 @@
 //
-//  EmptyView.swift
+//  EmptyAddedRecipeView.swift
 //  YumRecipes
 //
-//  Created by N N on 01/11/2022.
+//  Created by N N on 06/11/2022.
 //
 
 import SwiftUI
 
-struct EmptyView: View {
-    
-    var information: String = "Nothing to see here yet!"
-    
+struct EmptyAddedRecipeView: View {
     var body: some View {
         VStack {
             Image(systemName: "cross")
                 .font(.largeTitle)
-            Text(information)
+            Text("No added recipe yet!")
                 .font(.title2)
                 .padding(20)
         }
@@ -23,8 +20,8 @@ struct EmptyView: View {
     }
 }
 
-struct EmptyView_Previews: PreviewProvider {
+struct EmptyAddedRecipeView_Previews: PreviewProvider {
     static var previews: some View {
-        EmptyView()
+        EmptyAddedRecipeView()
     }
 }
