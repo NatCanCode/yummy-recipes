@@ -12,14 +12,21 @@ struct EmptyView: View {
     var information: String = "Nothing to see here yet!"
     
     var body: some View {
-        VStack {
-            Image(systemName: "cross")
-                .font(.largeTitle)
-            Text(information)
-                .font(.title2)
-                .padding(20)
+        ZStack {
+            Color("paleGreen")
+            VStack {
+//                Image(systemName: "multiply")
+                Text("🫣")
+                    .font(.largeTitle)
+                    .multilineTextAlignment(.center)
+                    .padding(20)
+                Text(information)
+                    .font(.title3)
+                    .padding(20)
+            }
+            .foregroundColor(.secondary)
         }
-        .foregroundColor(.secondary)
+        .ignoresSafeArea()
     }
 }
 

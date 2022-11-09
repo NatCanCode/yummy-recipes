@@ -13,7 +13,6 @@ struct FavoriteRecipeListView: View {
     
     var body: some View {
         NavigationView {
-            
             if favoritesVM.favorites.isEmpty {
                 EmptyView()
             } else {

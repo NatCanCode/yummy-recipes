@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 
 class AddRecipeViewModel: ObservableObject {
-    @Published  public var recipes = [RecipeModel]()
-    @Published  public var selectedImage = Image?
+    @Published  var recipes = [RecipeModel]()
+    @Published  var selectedImage: Image? = nil
     
     func addRecipe(image: String?, formImage: Image?, name: String, category: RecipeCategory, cost: RecipeCost, level: RecipeLevel, diet: RecipeDiet, season: RecipeSeason, prepTime: String, cookingTime: String, restTime: String, ingredients: [Ingredient], description: String, step: [Step]) {
         

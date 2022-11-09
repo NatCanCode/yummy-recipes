@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "29D68CF4-390A-477F-9C61-8B7B7A0E9650"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YumRecipes/View/RecipeListView.swift"
@@ -20,11 +20,11 @@
             landmarkType = "24">
             <Locations>
                <Location
-                  uuid = "29D68CF4-390A-477F-9C61-8B7B7A0E9650 - e0b084a4f4b26305"
+                  uuid = "29D68CF4-390A-477F-9C61-8B7B7A0E9650 - 7c81da2ebfbcf0d7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (YumRecipes.RecipeCategory) -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;, SwiftUI.Text&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in YumRecipes.RecipeListView.body.getter : some"
+                  symbolName = "closure #1 (YumRecipes.RecipeCategory) -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;YumRecipes.ListRowCellView, YumRecipes.RecipeDetailView&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0 in YumRecipes.RecipeListView.body.getter : some"
                   moduleName = "YumRecipes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nn/Desktop/YumRecipes/YumRecipes/View/RecipeListView.swift"
@@ -35,11 +35,11 @@
                   offsetFromSymbolStart = "212">
                </Location>
                <Location
-                  uuid = "29D68CF4-390A-477F-9C61-8B7B7A0E9650 - 88d5f5e942b1d0d1"
+                  uuid = "29D68CF4-390A-477F-9C61-8B7B7A0E9650 - 4480cfde395f18a1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;, SwiftUI.Text&gt;&gt; in closure #1 (YumRecipes.RecipeCategory) -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0)&gt;&gt;)&gt;&gt;, SwiftUI.Text&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.List&lt;Swift.Never, &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0&gt; in YumRecipes.RecipeListView.body.getter : some"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;YumRecipes.ListRowCellView, YumRecipes.RecipeDetailView&gt;&gt; in closure #1 (YumRecipes.RecipeCategory) -&gt; SwiftUI.Section&lt;SwiftUI.Text, SwiftUI.ForEach&lt;Swift.Array&lt;YumRecipes.RecipeModel&gt;, Foundation.UUID, SwiftUI.NavigationLink&lt;YumRecipes.ListRowCellView, YumRecipes.RecipeDetailView&gt;&gt;, SwiftUI.EmptyView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.scrollContentBackground(SwiftUI.Visibility) -&gt; some&gt;&gt;.0 in YumRecipes.RecipeListView.body.getter : some"
                   moduleName = "YumRecipes"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nn/Desktop/YumRecipes/YumRecipes/View/RecipeListView.swift"

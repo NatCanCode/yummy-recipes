@@ -17,6 +17,7 @@ struct ContentView: View {
                         Label("Recipes", systemImage: "fork.knife")
                     }
                 AddedRecipeListView()
+                    .environmentObject(AddRecipeViewModel())
                     .tabItem {
                         Label("My recipes", systemImage: "plus")
                     }

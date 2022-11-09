@@ -26,7 +26,7 @@ struct RecipeModel: Identifiable, Equatable {
     let prepTime: String
     let cookingTime: String
     let restTime: String
-    let ingredients: [Ingredient]
+    let ingredients: [Ingredient] 
     let description: String
     let step: [Step]
 }
