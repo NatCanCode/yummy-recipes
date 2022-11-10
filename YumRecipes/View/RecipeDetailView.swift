@@ -62,6 +62,7 @@ struct RecipeDetailView: View {
                 }
                 
             }
+            .listRowBackground(Color("paleGreen"))
             //            .navigationBarHidden(true)
             
             VStack(alignment: .center){
@@ -77,6 +78,7 @@ struct RecipeDetailView: View {
                     IconsExtractedView(systemName: "eurosign", indicator: recipe.cost.rawValue)
                 }
             }
+            .listRowBackground(Color("paleGreen"))
             .padding(2)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity)
@@ -150,6 +152,7 @@ struct RecipeDetailView: View {
                     }
                 }
                 .padding()
+                .listRowBackground(Color("paleGreen"))
             }
             
             if !recipe.step.isEmpty {
@@ -170,6 +173,7 @@ struct RecipeDetailView: View {
                     }
                 }
                 .padding()
+                .listRowBackground(Color("paleGreen"))
             }
         }
         .listStyle(.plain)
